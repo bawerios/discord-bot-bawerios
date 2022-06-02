@@ -3,7 +3,7 @@ const { Client, Intents } = require('discord.js')
 const { Player } = require('discord-player')
 
 const { token, prefix } = process.env
-
+console.log(token)
 const { healthCheck } = require('./src/commands/check.js')
 const { defaultResponse } = require('./src/commands/defaultResponse.js')
 const { play } = require('./src/commands/music/playMusic.js')
